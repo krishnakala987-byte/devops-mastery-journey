@@ -1,20 +1,22 @@
-# AWS Resource Tracker – Shell Scripting Project
+# AWS Resource Tracker – Shell Scripting Automation Project
 
-## Project Overview
+## Overview
 
-This project demonstrates how to automate AWS resource monitoring using Shell scripting, AWS CLI, jq, and Cron.
+This project demonstrates how to automate AWS resource monitoring using Bash scripting, AWS CLI, jq, and Cron.
 
-The script collects AWS resource information and generates a structured report file automatically.
+The script connects to AWS, retrieves resource details, filters JSON output, and generates a timestamped report file. It can also be scheduled to run automatically using cron.
+
+This project simulates real-world DevOps automation and cloud governance practices.
 
 ---
 
 ## Technologies Used
 
 - Linux (Ubuntu)
-- Shell Scripting (Bash)
+- Bash Shell Scripting
 - AWS CLI
-- jq (JSON processor)
-- Cron (Job Scheduler)
+- jq (JSON Processor)
+- Cron Scheduler
 - Amazon S3
 - Amazon EC2
 - AWS Lambda
@@ -22,35 +24,69 @@ The script collects AWS resource information and generates a structured report f
 
 ---
 
-## What This Project Does
+## AWS Services Monitored
 
-- Connects to AWS using AWS CLI
-- Retrieves:
-  - S3 bucket names
-  - EC2 instance IDs
-  - Lambda function names
-  - IAM user names
-- Formats output using jq
-- Generates a timestamped report file
-- Automates execution using Cron
+The script collects:
+
+- S3 bucket names
+- EC2 instance IDs
+- Lambda function names
+- IAM user names
 
 ---
 
-## Key Concepts Covered
+## How It Works
 
-- Shell script structure
-- Variables in Bash
-- Output redirection ( > and >> )
-- JSON parsing with jq
-- AWS CLI commands
-- Linux cron job scheduling
-- Automation mindset in DevOps
+1. Creates a report file with current date.
+2. Uses AWS CLI to fetch resource data.
+3. Parses JSON output using jq.
+4. Saves formatted results into a text file.
+5. Can be automated using cron.
 
 ---
 
-## Script Execution
+## How To Run
 
-Make script executable:
+Make the script executable:
 
 ```bash
 chmod +x aws_resource_tracker.sh
+```
+
+Run manually:
+
+```bash
+./aws_resource_tracker.sh
+```
+
+---
+
+## Cron Automation (Optional)
+
+Edit cron jobs:
+
+```bash
+crontab -e
+```
+
+Add:
+
+```bash
+0 18 * * * /home/krishna/aws_resource_tracker.sh
+```
+
+This runs the script daily at 6 PM.
+
+---
+
+## Learning Outcome
+
+- Practical AWS CLI usage
+- JSON parsing with jq
+- Shell scripting fundamentals
+- Linux task automation
+- DevOps monitoring mindset
+
+---
+
+This project reflects hands-on experience with automation in cloud environments.
