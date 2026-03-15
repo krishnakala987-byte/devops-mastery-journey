@@ -1,4 +1,3 @@
-# DevOps Zero to Hero – Day 15 (Ansible Configuration Management)
 
 This repository documents my **hands-on DevOps learning journey**.
 Day 15 focuses on **Configuration Management using Ansible**, including installation, SSH authentication, inventory management, ad-hoc commands, playbooks, and roles.
