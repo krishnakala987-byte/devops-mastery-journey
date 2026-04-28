@@ -13,3 +13,5 @@ This repository contains my personal notes and understanding of CI/CD using Jenk
 
 ## Projects
 - Jenkins CI/CD Pipeline with Docker and Kubernetes
+## Notes
+I have created a separate repository for the projects 
