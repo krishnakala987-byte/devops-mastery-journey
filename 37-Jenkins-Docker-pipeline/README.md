@@ -356,13 +356,3 @@ Fix:
 
 ---
 
-## 10. Next Steps
-
-- Build real application pipeline  
-- Create Docker image  
-- Push to DockerHub  
-- Deploy using Kubernetes  
-
----
-
-This file represents my complete hands-on learning and practical implementation of Jenkins and Docker in CI/CD.
