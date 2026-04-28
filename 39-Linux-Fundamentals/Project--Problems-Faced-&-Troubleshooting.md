@@ -31,13 +31,13 @@ docker run -it ubuntu
 
 ---
 
-## 5. Problems Faced & Troubleshooting
+## 2. Problems Faced & Troubleshooting
 
 (No specific issues mentioned in this session)
 
 ---
 
-## 6. Mistakes & Things to Remember 
+## 3. Mistakes & Things to Remember 
 
 - Linux is not a single OS, it's a kernel
 - Distributions are built on top of Linux
@@ -48,7 +48,7 @@ docker run -it ubuntu
 
 ---
 
-## 7. Quick Revision Summary
+## 4. Quick Revision Summary
 
 - OS = bridge between user and hardware
 - Linux = open-source, secure, used in servers
