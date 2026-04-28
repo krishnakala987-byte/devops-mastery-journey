@@ -41,7 +41,7 @@ Step 6: Check results in Actions tab
 
 ---
 
-## 5. Problems Faced & Troubleshooting
+## 2. Problems Faced & Troubleshooting
 
 No specific issues mentioned
 
@@ -52,7 +52,7 @@ General tips:
 
 ---
 
-## 6. Mistakes & Things to Remember
+## 3. Mistakes & Things to Remember
 
 - Do not skip testing
 - Never deploy untested code
@@ -63,7 +63,7 @@ General tips:
 
 ---
 
-## 7. Quick Revision Summary
+## 4. Quick Revision Summary
 
 - CI = Test + Build
 - CD = Deliver/Deploy
