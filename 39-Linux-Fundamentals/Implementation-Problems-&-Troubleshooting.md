@@ -101,7 +101,7 @@ Example:
 
 ---
 
-# 7. Important Points
+# 7. Important Notes
 
 - Disk must be formatted before use  
 - Mount connects disk to folder  
