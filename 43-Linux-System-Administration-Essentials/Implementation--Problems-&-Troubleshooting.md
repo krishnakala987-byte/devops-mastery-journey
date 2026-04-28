@@ -72,4 +72,4 @@ Add entry in /etc/fstab
 Disk setup flow:
 lsblk → mkfs → mount → verify  
 
-This is the core foundation for DevOps interviews and real-world usage.
+
