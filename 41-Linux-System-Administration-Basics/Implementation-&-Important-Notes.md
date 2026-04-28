@@ -42,12 +42,8 @@ Step 11: Rename file
 mv backup.txt archive.txt
 
 
-## 4. Problems Faced & Troubleshooting
 
-(No major issues mentioned)
-
-
-## 5. Mistakes & Things to Remember
+## 2. Mistakes & Things to Remember
 
 - Do NOT give everyone root access
 - Always use groups for permission management
@@ -59,7 +55,7 @@ mv backup.txt archive.txt
 - Be careful with userdel -r
 
 
-## 6. Quick Revision Summary
+## 3. Quick Revision Summary
 
 - Users → adduser
 - Groups → groupadd
